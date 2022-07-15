@@ -3,10 +3,8 @@ using namespace std;
 
 int main()
 {
-    string n_temp;
-    getline(cin, n_temp);
-
-    int n = stoi(ltrim(rtrim(n_temp)));
+    int n;
+    cin >> n;
 
     if(n == 1)
         cout << "one";
